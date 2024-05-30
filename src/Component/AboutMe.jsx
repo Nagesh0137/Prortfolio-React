@@ -1,5 +1,4 @@
 import React from "react";
-
 export default function AboutMe() {
   return (
     <>
@@ -13,7 +12,7 @@ export default function AboutMe() {
                     <div className="w-100 text-center dp-background-img p-3">
                       <img
                         className="dp rounded-circle"
-                        src="profile.jpg"
+                        src="/profile.jpg"
                         alt="Title"
                       />
                     </div>
@@ -57,16 +56,16 @@ export default function AboutMe() {
                 <h1>Hello....!</h1>
                 <h4>Here's who I am & what I do</h4>
                 <a href="resume.html">
-                  <button class="btn shadow btn-info text-white border-0 rounded-pill">
+                  <button className="btn shadow btn-info text-white border-0 rounded-pill">
                     RESUME
                   </button>
                 </a>
                 <a href="project.html">
-                  <button class="btn shadow btn-warning ms-1 border-0 rounded-pill">
+                  <button className="btn shadow btn-warning ms-1 border-0 rounded-pill">
                     PROJECTS
                   </button>
                 </a>
-                <p class="text-break mt-3">
+                <p className="text-break mt-3">
                   <b>I'm a developer. </b>
                   <br />A frontend developer is a professional who specializes
                   in creating the user interface and user experience of a

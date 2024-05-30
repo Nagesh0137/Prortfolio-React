@@ -14,7 +14,7 @@ export default function Navbar() {
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
           <div className="container">
             <div className="d-flex align-items-center col-6 col-md-8 ">
-              <NavLink className="navbar-brand m-0 fs-3" to="/aboutme">
+              <NavLink className="navbar-brand m-0 fs-3" to="/">
                 Nagesh Sonawane
               </NavLink>
               <small className="ms-1 d-none d-md-block">
@@ -40,7 +40,7 @@ export default function Navbar() {
                   <NavLink
                     className="nav-link active"
                     aria-current="page"
-                    to="/aboutme">
+                    to="/">
                     About Me
                   </NavLink>
                 </li>

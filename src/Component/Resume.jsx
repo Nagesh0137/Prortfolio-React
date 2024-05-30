@@ -23,7 +23,7 @@ export default function Resume() {
               Print CV
             </button>
           </div>
-          <img src="Resume.jpg" className="img-fluid shadow" alt="" />
+          <img src="/Resume.jpg" className="img-fluid shadow" alt="" />
         </div>
       </div>
     </section>
