@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Prortfolio-React/static/css/main.aaa0e0a9.css",
+    "main.js": "/Prortfolio-React/static/js/main.94b6714a.js",
+    "static/media/5641363.jpg": "/Prortfolio-React/static/media/5641363.d7f2989818160aa443a4.jpg",
+    "index.html": "/Prortfolio-React/index.html",
+    "main.aaa0e0a9.css.map": "/Prortfolio-React/static/css/main.aaa0e0a9.css.map",
+    "main.94b6714a.js.map": "/Prortfolio-React/static/js/main.94b6714a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aaa0e0a9.css",
+    "static/js/main.94b6714a.js"
+  ]
+}
