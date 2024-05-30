@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Inter&family=Philosopher:wght@700&family=Lato:wght@300&family=Outfit:wght@400;700&family=Playfair+Display:wght@500&family=Prata&display=swap');
+  .navbar .navbar-brand{
+    font-family: 'Prata', serif;;
+  }
+  .navbar .navbar-brand small{
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+  }
+  body{
+    font-family: 'Lato', sans-serif;
+  }
+  section .row .left_box{
+    background-color: #e6dace;
+    /* height: 600px; */
+    position: relative;
+  }
+  .right_box{
+    position: relative;
+  }
+  .profile_card{
+    height:auto;
+    overflow: hidden;
+    border-radius: 12px;
+    /* background-color: red; */
+    top: 25%;
+    /* box-shadow: -2px 1px 20px -12px black; */
+    
+  }
+  .p_right_box{
+    background-color:white;
+    /* box-shadow: -10px 1px 20px -12px black;   */
+  }
+  .dp-background-img{
+    
+    border-radius: 5px 5px 10px 10px;
+    position: relative;
+    background: url("../public/5641363.jpg") no-repeat center center/cover;
+  }
+  
+  .dp{
+   width: 200px ;
+   height: 225px;
+   z-index: 999 !important;
+  }
+  .p_right_box{
+    width: 50vh;
+    margin-left: 120px;
+  }
+  .card{
+    border-radius: 12px;
+    background-color: #e6dace;
+    box-shadow: 10px 2px 20px -10px black;
+    /* border: none !important; */
+
+  }
+  .card-title{
+    font-family: 'Prata', serif;;
+    font-size: 28px;
+    text-shadow: 2px 2px 2px rgb(80, 79, 79);
+  }
+  .card-text{
+    font-family: 'Outfit', sans-serif;
+    text-shadow: 2px 1px 2px rgb(80, 79, 79);
+  }
+  .card-footer i{
+    font-size: 25px;
+    margin-left: 10px;
+    color: black;
+    text-shadow: 10px 5px 14px rgb(80, 79, 79);
+  }
+  .card-footer {
+    width: 100%;
+    background-color: white;
+  }
+  .p_left_box{
+   margin: 50px -100px ;
+   width: 60vh;
+  }
+  .p_right_box h1{
+    font-size: 60px;
+    font-weight: bolder;
+  }
+  .p_right_box h4{
+    font-weight: bold;
+  }
+  .p_right_box button{
+    border: 1px solid rgb(43, 42, 42);
+    font-weight: bold;
+    padding:3px 22px 3px 22px;
+  }
+  .p_right_box button:hover{
+    background-color: cyan;
+    color: black !important
+  }
+  .foot_right span{
+    margin-left: 20px;
+    text-align: center;
+  }
+  .foot_right span i{
+    color: black;
+    text-shadow: 4px 4px 5px rgb(80, 79, 79);
+    margin-left: 5px;
+
+  }
+  .foot_right span b{
+    font-weight: bold;
+    font-size: 15px;
+  }
+  /* resume css */
+  .resume{
+    background-color: #e6dace;
+  }
+  .resume_page{
+    width:60%;
+    height:auto;
+    margin-top: 70px;
+    margin-bottom: 10px;
+
+  }
+  .dot{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: red;
+  }
+  .resume_page caption{
+    font-size: 20px;
+  }
+  
+  /* projects */
+  section div h1{
+    font-family: 'Outfit', sans-serif;
+    margin-top: 50px;
+  }
+  .siklls{
+    height: auto;
+    border-radius: 15px;
+    border: 1px solid white;
+    background-color:black;
+  }
+  .progress{
+    height: 30px !important;
+    text-align: center;
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    text-shadow: 3px 3px 5px black;
+  }
+  .progress-bar{
+    font-size: 15px;
+    height: 100%;
+   
+  }
+  .progress b{
+    font-size: 16px;
+  }
+  .projects{
+    width: 100%;
+    height:580px;
+    overflow: hidden;
+  }
+  .projects iframe{
+    width: 100%;
+    height: 100% !important
+  }
+  .projects_box h2{
+    font-weight: bold;
+    text-shadow: 3px 3px 5px rgb(184, 149, 149);
+    font-size: 22px;
+  }
+  .po2{
+  overflow: hidden;
+  }
+  .p2{
+    width: 110%;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .po2 iframe::-webkit-scrollbar{
+    visibility: hidden;
+    width: 1px;
+    background-color:black;
+  }
+
+  /* contact page */
+  .contact_section{
+    background-color: #e6dace;
+  }
+.contact_section form{
+  font-family: 'Philosopher', sans-serif;
+  font-size: 20px;
+  background-color: white;
+}
+.contact_section form input{
+  border: none;
+  border-bottom:1px solid black;
+}
+input:focus {
+ outline: none;
+}
+button:focus{
+  outline: none;
+}
+
+/*animation css*/
+.card-footer i:hover{
+  font-size: 30px;
+  color:red;
+}
+.profile_card .dp:hover{
+      cursor: pointer;
+      transform: translate(20px 20px);
+      width: 180px;
+      height: 180px;
+      transition:1s ;
+      box-shadow: 1px 10px 20px -8px black;
+
+}
+/* media */
+@media only screen and (max-width: 778px) {
+  .navbar-brand{
+    float: left;
+  }
+  .p_left_box{
+    margin: 0px;
+    padding: 20px;
+    padding-left: 50px;
+  }
+  .p_right_box{
+    margin: 0px;
+    width: 100%;
+    padding: 20px;
+    background-color: #e6dace;
+  }
+  .right_box{
+    background-color: #e6dace;
+  }
+  .card-title{
+    font-size: 30px;
+    font-weight: 700;
+
+  }
+  .card-text{
+    font-size: 22px;
+  }
+  .resume_page{
+    width: 100% !important;
+    margin: 0px;
+  }
+  .resume_page .btn{
+    padding: 5px !important;
+    font-size: 14px;
+    font-weight: bold;
+  }
+}
